@@ -27,6 +27,7 @@ public class Main_maleta {
 		
 		int n=0;
 		do {
+			//menu de operaciones
 			System.out.println("\n- Maleta de viaje");
 			System.out.println("\t1. Ver mi maleta");
 			System.out.println("\t2. Añadir un nuevo elemento a mi maleta");
@@ -41,6 +42,7 @@ public class Main_maleta {
 				System.out.print("- Introduzca el elemento que desea guardar: ");
 				String nEle=sc.next(); 
 				
+				//añado elemento
 				maleta.addElem(nEle);
 				
 			}else if(n==3) {
@@ -49,6 +51,7 @@ public class Main_maleta {
 				System.out.println("- Introduzca el numero del elemento que desea eliminar: ");
 				int nEle=sc.nextInt();
 				
+				//elimino elemento
 				maleta.deleteElem(nEle);
 				
 			}
