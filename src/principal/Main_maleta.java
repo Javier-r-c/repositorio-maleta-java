@@ -12,6 +12,8 @@ public class Main_maleta {
 		
 		String[]elementos=new String[100];
 		
+		System.out.println("--MALETA DE VIAJES--");
+		
 		System.out.println("Cuantos elementos quieres meter en la maleta");
 		int num=sc.nextInt();
 		
