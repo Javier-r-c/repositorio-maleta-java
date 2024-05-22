@@ -5,6 +5,7 @@ package clases;
 public class Maleta <T>{
 	protected T[]elementos;
 	protected int num;
+	protected String nombre;
 	
 	public Maleta (T[]elementos, int num) {
 		this.elementos=elementos;
